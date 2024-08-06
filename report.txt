@@ -1,0 +1,17 @@
+For Task 3 of this assignment, I choose to store the known image dataset in a binary search tree, 
+sorted based on the ASCII values of the characters of the first hash 
+(the hash generated when no transformation is applied) in dictionary order. 
+
+According to [1], searching a binary search tree has an average-case time complexity of O(log n), 
+and a worst-case time complexity of O(n). This transates to a shorter searching time for most of the time. 
+
+Besides, writing the functions for constructing and searching a binary search tree can be done recursively. 
+This greatly simplifies the code and improves its readability.
+
+An alternative would be storing the known image dataset in a linked list. According to [1], 
+searching a linked list has a time complexity of O(n), for both average-case and worst-case. 
+In other words, searching a linked list would normally take a longer time than searching a binary search tree.
+Since time complexity is assessed in Task 3, searching a binary search tree is better than searching a linked list.
+
+References:
+[1] https://cooervo.github.io/Algorithms-DataStructures-BigONotation/
